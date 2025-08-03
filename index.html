@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Hecho por Marc Toledano -->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Himalayas – Just another ThemeGrill Demo site</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="icon" href="https://themegrilldemos.com/himalayas/wp-content/uploads/sites/23/2015/07/logo-small.png"
+    type="image/x-icon">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+<link
+  href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+  rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+
+<body class="m-0">
+  <nav class="navbar fixed-top navbar-expand-md bg-oscuro">
+    <div class="container">
+
+      <!-- Logo -->
+      <a class="navbar-brand ms-3" href="#">
+        <img src="https://themegrilldemos.com/himalayas/wp-content/uploads/sites/23/2015/07/logo-small.png" alt="Logo"
+          class="img-fluid" style="max-height: 40px; width: auto;" />
+      </a>
+
+
+      <!-- Toggle button for mobile view -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Menu -->
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav gap-4 ">
+          <li class="nav-item">
+            <a class="nav-link text-light fs-6" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light fs-6" href="#section-about">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light fs-6" href="#">SERVICES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light fs-6" href="#">PORTFOLIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light fs-6" href="#">BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light fs-6" href="#">OUR TEAM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light fs-6" href="#">CONTACT US</a>
+          </li>
+          <li class="nav-item d-none d-md-block">
+            <a class="nav-link text-light fs-6" href="#" aria-label="Search">
+              <i class="fa fa-search"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- SLIDER -->
+  <div id="heroCarousel" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
+    
+    <div class="carousel-inner">
+      
+      <!-- Slide 1 -->
+      <div class="carousel-item active vh-100 z-1">
+        
+        <img src="https://themegrilldemos.com/himalayas/wp-content/uploads/sites/23/2015/07/himalayas-light.jpg"
+          class="d-block w-100 h-100 object-fit-cover" alt="Slide 1">
+          <div class="overlay position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-25 " ></div>
+
+        <div class="carousel-caption d-flex flex-column justify-content-center align-items-center text-center h-100">
+          <h1 class="display-4 fw-bold h1 mb-3 p-3 px-5">HIMALAYAS WELCOME YOU</h1>
+          <p class="fs-4 ">Phasellus maximus laoreet massa, eu aliquet mauris imperdiet a. Donec euismod augue sit amet
+            vestibulum tristique.
+            Read more</p>
+          <a href="#"
+            class="btn btn-outline-light text-center z-1 lh-base rounded-0 fs-5 position-relative overflow-hidden d-inline-block p-2 px-3 custom-btn button-animation">
+            Read More
+          </a>
+
+        </div>
+      </div>
+      <!-- Slide 2 -->
+      <div class="carousel-item vh-100">
+        <img src="https://themegrilldemos.com/himalayas/wp-content/uploads/sites/23/2015/07/slider22.jpg"
+          class="d-block w-100 h-100 object-fit-cover" alt="Slide 2">
+          <div class="overlay position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-25 " ></div>
+
+        <div class="carousel-caption d-flex flex-column justify-content-center align-items-center text-center h-100">
+          <h1 class="display-4 fw-bold h1 mb-3 p-3 px-5 ">BEST CLEAN PARALLAX THEME</h1>
+          <p class="fs-5 ">This is the highest mountain system on earth, the name Himalaya means the House of Snow and
+            it consists of several parallel mountain ranges.</p>
+            <a href="#"
+            class="btn btn-outline-light text-center z-1 lh-base rounded-0 fs-5 position-relative overflow-hidden d-inline-block p-2 px-3 custom-btn button-animation">
+            Read More
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Navigation Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Elemento único  -->
+  <div class="d-block d-md-none vh-50 position-relative text-center bg-oscuro text-white mt-5">
+    <img src="https://themegrilldemos.com/himalayas/wp-content/uploads/sites/23/2015/07/himalayas-light.jpg"
+      class="d-block w-100 h-100 object-fit-cover" alt="Single Slide">
+      <div class="overlay position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-25 " ></div>
+
+    <div
+      class="position-absolute top-50 start-50 translate-middle d-flex justify-content-center align-items-center w-100 h-100">
+      <h1 class="display-6 fw-bold h1 mx-3 p-3">BEST CLEAN PARALLAX THEME</h1>
+    </div>
+  </div>
+
+
+
+  <!-- SECCION 2 -->
+  <section>
+    <div class="section my-5 py-3 py-sm-4 py-md-5">
+      <div class="container">
+        <div class="section-about text-center mb-3 my-sm-4 mb-md-5 my-sm-4 my-md-0">
+          <h2 class=" section-title fs-2 fw-bold d-inline-block position-relative px-3 fw-bold ">HIMALAYAS THEME</h2>
+          <h3 class="text-muted section-subtitle fw-light fs-5 ">Clean and beautiful WordPress free theme</h3>
+        </div>
+        <div class="row align-items-center section-about-contents mt-5" >
+          <div class="col-md-6">
+            <img src="./img/about-img.png" class="img-fluid " alt="About Image" />
+          </div>
+          <div class="col-md-6 mt-4 ">
+            <h3 class="mt-sm-4 mt-md-0 mb-4 text-center text-md-start fs-3 fw-light ">Want to try it?</h3>
+            <p class="text-muted text-center text-md-start fs-6 mt-md-3 mt-lg-3 ">
+              Nullam vitae felis vel leo venenatis faucibus sed quis felis.
+              Nunc lacinia non metus sed fermentum Quisque accumsan lacus id
+              lacus egestas, eget commodo augue rutrum.
+            </p>
+            <p class="
+        text-muted text-center text-md-start fs-6 ">
+              Quisque accumsan lacus id lacus egestas, eget commodo augue
+              rutrum. Pellentesque venenatis eu justo in gravida.Quisque
+              accumsan lacus id lacus egestas, eget commodo augue rutrum
+            </p>
+            <div class="buttons mt-3 mt-sm-4 mt-md-5 text-center text-md-start">
+              <a href="#" class="btn btn-dark  btn-sm btn-md-lg text-white me-2 p-2 button-animation">Read more</a>
+              <a href="#" class="btn btn-dark btn-sm btn-md-lg text-white p-2 button-animation">Purchase Themes</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Separador azul -->
+<section id="featured" class="parallax-section text-white py-5 d-flex align-items-center justify-content-center position-relative"
+  style="background: url('https://themegrilldemos.com/himalayas/wp-content/uploads/sites/23/2015/07/call-to-action-text.jpg') center/cover fixed; min-height: 300px; width: 100%;">
+  
+  <!-- Capa con fondo azul semitransparente -->
+  <div class="overlay position-absolute top-0 start-0 w-100 h-100 bg-azul opacity-60" ></div>
+
+  <div class="container position-relative">
+    <!-- Vista lg -->
+    <div class="row d-none d-lg-flex align-items-center text-white">
+      <div class="col-lg-8 text-start px-3">
+        <h5 class="fs-3 fw-bold separators-title mb-3">JUST GIVE A LOOK TO OUR OTHER THEMES!</h5>
+        <p class="fs-4 mb-2">The themes that we provided are all clean, simple, and beautiful that you never seen before.</p>
+      </div>
+      <div class="col-lg-4 text-center">
+        <button class="btn btn-outline-light mt-3 fs-5 fw-light px-5 py-2">PURCHASE NOW</button>
+      </div>
+    </div>
+
+    <!-- Vista sm y md -->
+    <div class="row d-block d-lg-none text-center text-white">
+      <div class="col-12">
+        <h5 class="fs-5 fw-bold separators-title mb-3">JUST GIVE A LOOK TO OUR OTHER THEMES!</h5>
+        <p class="fs-6 mb-2">The themes that we provided are all clean, simple, and beautiful that you never seen before.</p>
+        <button class="btn btn-outline-light mt-3 fs-5 fw-light px-5 py-2">PURCHASE NOW</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+  <!-- SECCION 3 -->
+  <section>
+    <div class="section">
+      <div class="container pt-5">
+        <div class="text-center mb-5">
+          <h2 class="section-title fs-2 fw-bold d-inline-block position-relative px-3 ">WE OFFER</h2>
+          <p class="text-muted d-none d-md-block fs-5">
+            We provide the best WordPress theme with Elegant Design and Awesome
+            Features. Try it yourself, we are sure you will like the theme like
+            thousands of others.
+          </p>
+          <p class="text-muted d-block d-md-none fs-6">
+            We provide the best WordPress theme with Elegant Design and Awesome
+            Features. Try it yourself, we are sure you will like the theme like
+            thousands of others.
+          </p>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4 col-sm-6">
+            <div class="card rounded-0 border-0  text-center">
+              <img
+                src="https://themegrilldemos.com/himalayas/wp-content/uploads/sites/23/2015/07/carriage-clock-797833_640-470x280.jpg"
+                class="card-img-top card-img-top-offer rounded-0 p-1 border border-secondary-subtle"
+                alt="One Page Menu" />
+              <div class="card-body text-start">
+                <h4 class="card-title fw-bold fs-6">ONE PAGE MENU</h4>
+                <p class="card-text text-muted">
+                  Curabitur faucibus bibendum lorem cursus porttitor. Nulla pellentesque sollicitudin tortor vitae
+                  dictum.
+                  Quisque viverra venenatis vulputate.
+                </p>
+                <a href="#" class="text-decoration-none card-read-more text-muted">Read more >></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="card rounded-0 h-100 border-0  text-center">
+              <img
+                src="https://themegrilldemos.com/himalayas/wp-content/uploads/sites/23/2015/07/black-and-white-apple-470x280.jpg"
+                class="card-img-top card-img-top-offer rounded-0 p-1 border border-secondary-subtle"
+                alt="Parallax Effect" />
+              <div class="card-body text-start">
+                <h4 class="card-title fw-bold fs-6 ">PARALLAX EFFECT</h4>
+                <p class="card-text text-muted ">
+                  Curabitur faucibus bibendum lorem cursus porttitor. Nulla pellentesque sollicitudin tortor vitae
+                  dictum.
+                  Quisque viverra venenatis vulputate.
+                </p>
+                <a href="#" class="text-decoration-none card-read-more text-muted">Read more >></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="card h-100 rounded-0 border-0  text-center">
+              <img
+                src="https://themegrilldemos.com/himalayas/wp-content/uploads/sites/23/2015/07/woman-girl-470x280.jpg"
+                class="card-img-top card-img-top-offer rounded-0 p-1 border border-secondary-subtle"
+                alt="Robust Features" />
+              <div class="card-body text-start">
+                <h4 class="card-title fw-bold fs-6">ROBUST FEATURES</h4>
+                <p class="card-text text-muted">
+                  Curabitur faucibus bibendum lorem cursus porttitor. Nulla pellentesque sollicitudin tortor vitae
+                  dictum.
+                  Quisque viverra venenatis vulputate.
+                </p>
+                <a href="#" class="text-decoration-none card-read-more text-muted">Read more >></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="card rounded-0 h-100 border-0  text-center">
+              <img
+                src="https://themegrilldemos.com/himalayas/wp-content/uploads/sites/23/2015/07/auto-788747_640-470x280.jpg"
+                class="card-img-top card-img-top-offer rounded-0 p-1 border border-secondary-subtle"
+                alt="Custom Widgets" />
+              <div class="card-body text-start ">
+                <h4 class="card-title fw-bold fs-6">RADIANT DESIGN</h4>
+                <p class="card-text text-muted">
+                  Curabitur faucibus bibendum lorem cursus porttitor. Nulla pellentesque sollicitudin tortor vitae
+                  dictum.
+                  Quisque viverra venenatis vulputate.
+                </p>
+                <a href="#" class="text-decoration-none card-read-more text-muted">Read more >></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="card h-100  rounded-0 border-0  text-center">
+              <img src="https://themegrilldemos.com/himalayas/wp-content/uploads/sites/23/2015/07/apple-dsk-470x280.jpg"
+                class="card-img-top card-img-top-offer rounded-0 p-1 border border-secondary-subtle"
+                alt="Responsive Design" />
+              <div class="card-body text-start">
+                <h4 class="card-title fw-bold fs-6">EXCELLENT SUPPORT</h4>
+                <p class="card-text text-muted">
+                  Curabitur faucibus bibendum lorem cursus porttitor. Nulla pellentesque sollicitudin tortor vitae
+                  dictum.
+                  Quisque viverra venenatis vulputate.
+                </p>
+                <a href="#" class="text-decoration-none card-read-more text-muted">Read more >></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="card rounded-0 h-100 border-0  text-center">
+              <img
+                src="https://themegrilldemos.com/himalayas/wp-content/uploads/sites/23/2015/07/hotel-595121_1280-470x280.jpg"
+                class="card-img-top card-img-top-offer rounded-0 p-1 border border-secondary-subtle"
+                alt="Great Support" />
+              <div class="card-body text-start">
+                <h4 class="card-title fw-bold fs-6">FREE THEMES</h4>
+                <p class="card-text text-muted">
+                  Curabitur faucibus bibendum lorem cursus porttitor. Nulla pellentesque sollicitudin tortor vitae
+                  dictum.
+                  Quisque viverra venenatis vulputate.
+                </p>
+                <a href="#" class="text-decoration-none card-read-more text-muted">Read more >></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección fotos -->
+  <section class="pt-5 mt-2">
+    <div class="section pt-5">
+      <div class="container-fluid p-0">
+        <div class="text-center">
+          <h2 class="fw-bold section-title fs-2 d-inline-block position-relative px-3">PORTFOLIO</h2>
+          <p class="section-subtitle fs-5 text-muted px-2 ">
+            Nulla semper tempus nunc. Suspendisse potenti. Etiam fermentum lacus nisl, eu facilisis velit dictum
+            maximus. Etiam quis ornare nibh.
+          </p>
+        </div>
+        <div class="row g-0 mt-5 pt-5">
+          <!-- Imagen 1 -->
+          <div class="portfolio-item col-lg-3 col-md-6 col-sm-12 position-relative overflow-hidden">
+            <img src="https://themegrilldemos.com/himalayas/wp-content/uploads/sites/23/2015/07/portfolio-1-400x350.jpg"
+              class="img-fluid w-100 portfolio-img" alt="Portfolio Image 1">
+            <div class="portfolio-overlay d-flex flex-column justify-content-center align-items-center text-white">
+              <h5>Project Title</h5>
+              <p>Short description of the project goes here.</p>
+              <div class="d-flex gap-2">
+                <button class="btn btn-outline-light btn-sm">View</button>
+                <button class="btn btn-outline-light btn-sm">Details</button>
+              </div>
+            </div>
+          </div>
+          <!-- Imagen 2 -->
+          <div class="portfolio-item col-lg-3 col-md-6 col-sm-12 position-relative overflow-hidden">
+            <img src="https://themegrilldemos.com/himalayas/wp-content/uploads/sites/23/2015/07/portfolio-2-400x350.jpg"
+              class="img-fluid w-100 portfolio-img" alt="Portfolio Image 2">
+            <div class="portfolio-overlay d-flex flex-column justify-content-center align-items-center text-white">
+              <h5>Project Title</h5>
+              <p>Short description of the project goes here.</p>
+              <div class="d-flex gap-2">
+                <button class="btn btn-outline-light btn-sm">View</button>
+                <button class="btn btn-outline-light btn-sm">Details</button>
+              </div>
+            </div>
+          </div>
+          <!-- Imagen 3 -->
+          <div class="portfolio-item col-lg-3 col-md-6 col-sm-12 position-relative overflow-hidden">
+            <img src="https://themegrilldemos.com/himalayas/wp-content/uploads/sites/23/2015/07/portfolio-4-400x350.jpg"
+              class="img-fluid w-100 portfolio-img" alt="Portfolio Image 3">
+            <div class="portfolio-overlay d-flex flex-column justify-content-center align-items-center text-white">
+              <h5>Project Title</h5>
+              <p>Short description of the project goes here.</p>
+              <div class="d-flex gap-2">
+                <button class="btn btn-outline-light btn-sm">View</button>
+                <button class="btn btn-outline-light btn-sm">Details</button>
+              </div>
+            </div>
+          </div>
+          <!-- Imagen 4 -->
+          <div class="portfolio-item col-lg-3 col-md-6 col-sm-12 position-relative overflow-hidden">
+            <img src="https://themegrilldemos.com/himalayas/wp-content/uploads/sites/23/2015/07/portfolio-5-400x350.jpg"
+              class="img-fluid w-100 portfolio-img" alt="Portfolio Image 4">
+            <div class="portfolio-overlay d-flex flex-column justify-content-center align-items-center text-white">
+              <h5>Project Title</h5>
+              <p>Short description of the project goes here.</p>
+              <div class="d-flex gap-2">
+                <button class="btn btn-outline-light btn-sm">View</button>
+                <button class="btn btn-outline-light btn-sm">Details</button>
+              </div>
+            </div>
+          </div>
+          <!-- Imagen 5 -->
+          <div class="portfolio-item d-lg-block d-none col-lg-3 position-relative overflow-hidden">
+            <img src="https://themegrilldemos.com/himalayas/wp-content/uploads/sites/23/2015/07/portfolio-6-400x350.jpg"
+              class="img-fluid w-100 portfolio-img" alt="Portfolio Image 5">
+            <div class="portfolio-overlay d-flex flex-column justify-content-center align-items-center text-white">
+              <h5>Project Title</h5>
+              <p>Short description of the project goes here.</p>
+              <div class="d-flex gap-2">
+                <button class="btn btn-outline-light btn-sm">View</button>
+                <button class="btn btn-outline-light btn-sm">Details</button>
+              </div>
+            </div>
+          </div>
+          <!-- Imagen 6 -->
+          <div class="portfolio-item d-lg-block d-none col-lg-3 position-relative overflow-hidden">
+            <img src="https://themegrilldemos.com/himalayas/wp-content/uploads/sites/23/2015/07/portfolio-7-400x350.jpg"
+              class="img-fluid w-100 portfolio-img" alt="Portfolio Image 6">
+            <div class="portfolio-overlay d-flex flex-column justify-content-center align-items-center text-white">
+              <h5>Project Title</h5>
+              <p>Short description of the project goes here.</p>
+              <div class="d-flex gap-2">
+                <button class="btn btn-outline-light btn-sm">View</button>
+                <button class="btn btn-outline-light btn-sm">Details</button>
+              </div>
+            </div>
+          </div>
+          <!-- Imagen 7 -->
+          <div class="portfolio-item d-lg-block d-none col-lg-3 position-relative overflow-hidden">
+            <img src="https://themegrilldemos.com/himalayas/wp-content/uploads/sites/23/2015/07/portfolio-8-400x350.jpg"
+              class="img-fluid w-100 portfolio-img" alt="Portfolio Image 7">
+            <div class="portfolio-overlay d-flex flex-column justify-content-center align-items-center text-white">
+              <h5>Project Title</h5>
+              <p>Short description of the project goes here.</p>
+              <div class="d-flex gap-2">
+                <button class="btn btn-outline-light btn-sm">View</button>
+                <button class="btn btn-outline-light btn-sm">Details</button>
+              </div>
+            </div>
+          </div>
+          <!-- Imagen 8 -->
+          <div class="portfolio-item d-lg-block d-none col-lg-3 position-relative overflow-hidden ">
+            <img src="https://themegrilldemos.com/himalayas/wp-content/uploads/sites/23/2015/07/portfolio-2-400x350.jpg"
+              class="img-fluid w-100 portfolio-img" alt="Portfolio Image 8">
+            <div class="portfolio-overlay d-flex flex-column  justify-content-center align-items-center text-white">
+              <h5>Project Title</h5>
+              <p>Short description of the project goes here.</p>
+              <div class="d-flex gap-2">
+                <button class="btn btn-outline-light btn-sm">View</button>
+                <button class="btn btn-outline-light btn-sm">Details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- BLOG -->
+  <section id="blog" class="text-white py-5 m-0"
+    style="background-image: url('https://themegrilldemos.com/himalayas/wp-content/uploads/sites/23/2015/07/blog-bg1.jpg'); background-size: cover; background-attachment: fixed; position: relative;">
+    <!-- Capa blanca semitransparente -->
+    <div class="position-absolute top-0 start-0 w-100 h-100 bg-white opacity-75 m-0"></div>
+
+
+    <div class="container position-relative z-1 py-5 ">
+      <div class="text-center mb-5">
+        <h2 class="display-4 text-secondary-emphasis fs-2 d-inline-block position-relative px-3 fw-bold">BLOG</h2>
+        <h3 class="fs-5 text-body-tertiary d-block">Choose whether to display Latest posts or posts of
+          Specific Category.</h4>
+      
+
+      </div>
+
+
+
+      <div class="row mx-2">
+        <!-- Blog 1 -->
+        <div class="col-12 col-lg-4 mb-4 my-4">
+          <div class="card border-0 p-4 rounded-0 h-100">
+            <img
+              src="https://themegrilldemos.com/himalayas/wp-content/uploads/sites/23/2015/07/woman-828888_1280-319x142.jpg"
+              class="card-img-top rounded-0" alt="Bibendum cursus">
+            <div class="card-body">
+              <h5 class="fs-5 card-title"><a href="#" class="text-dark text-decoration-none fw-bolder">Bibendum
+                  cursus</a></h5>
+              <p class="card-text fs-6 text-muted">Integer ut pharetra ligula, sit amet luctus purus...</p>
+              <p class="text-muted small">Posted in <a href="#" class="text-decoration-none text-azul">Uncategorized</a>
+                by <a href="#" class="text-decoration-none text-azul">ThemeGrill Team</a> on <time
+                  datetime="2015-07-21">July 21,
+                  2015</time></p>
+              <a href="#" class="text-decoration-none card-read-more fs-6 text-muted">Read more </a>
+            </div>
+          </div>
+        </div>
+        <!-- Blog 2 -->
+        <div class="col-12 col-lg-4 mb-4 my-4">
+          <div class="card border-0 p-4 rounded-0 h-100">
+            <img
+              src="https://themegrilldemos.com/himalayas/wp-content/uploads/sites/23/2015/07/hospital-643961_1280-319x142.jpg"
+              class="card-img-top rounded-0 " alt="Aliquam luctus">
+            <div class="card-body">
+              <h5 class="fs-5 card-title"><a href="#" class="text-dark text-decoration-none fw-bolder">Aliquam
+                  luctus</a></h5>
+              <p class="card-text fs-6 text-muted">Integer ut pharetra ligula, sit amet luctus purus...</p>
+              <p class="text-muted small">Posted in <a href="#" class="text-decoration-none text-azul">Uncategorized</a>
+                by <a href="#" class="text-decoration-none text-azul">ThemeGrill Team</a> on <time
+                  datetime="2015-07-21">July 21,
+                  2015</time></p>
+              <a href="#" class="text-decoration-none card-read-more fs-6 text-muted">Read more >></a>
+            </div>
+          </div>
+        </div>
+        <!-- Blog 3 -->
+        <div class="col-12  col-lg-4 mb-4 my-4">
+          <div class="card border-0 p-4 rounded-0 h-100">
+            <img
+              src="https://themegrilldemos.com/himalayas/wp-content/uploads/sites/23/2015/07/gardening-109895_1280-319x142.jpg"
+              class="card-img-top rounded-0" alt="Hall of Flowers">
+            <div class="card-body">
+              <h5 class="fs-5 card-title"><a href="#" class="text-dark text-decoration-none fw-bolder">Hall of
+                  Flowers</a></h5>
+              <p class="card-text fs-6 text-muted">Integer ut pharetra ligula, sit amet luctus purus...</p>
+              <p class="text-muted small">Posted in <a href="#" class="text-decoration-none text-azul">Uncategorized</a>
+                by <a href="#" class="text-decoration-none text-azul">ThemeGrill Team</a> on <time
+                  datetime="2015-07-21">July 21,
+                  2015</time></p>
+              <a href="#" class="text-decoration-none card-read-more fs-6 text-muted">Read more >></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <a href="#" class="btn  btn-info bg-azul rounded-0 text-white fs-5">View All</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Separador azul CTA -->
+
+  <div class="bg-azul d-flex align-items-center justify-content-center p-4 py-5 m-0 ">
+    <div class="container text-center text-white">
+      <h5 class="d-none d-md-block fs-3 fw-bolder text-shadow separators-title mb-3">THIS IS CALL TO ACTION LAYOUT TWO
+      </h5>
+      <h5 class="d-block d-md-none fs-5 fw-bolder text-shadow separators-title mb-3">THIS IS CALL TO ACTION LAYOUT TWO
+      </h5>
+      <p class="fs-4 fw-none  d-none d-md-block ">Call to Action widget has two Layouts, this being Layout Two. Which
+        displays both Text and Button at the Center. Liked this Layout!!</p>
+      <p class="fs-6 fw-none d-sm-block d-md-none">Call to Action widget has two Layouts, this being Layout Two. Which
+        displays both Text and Button at the Center. Liked this Layout!!</p>
+      <button class="btn btn-outline-light mt-3 fs-5 fw-light px-5 py-2">CTA BUTTON</button>
+    </div>
+  </div>
+
+  <!-- OUR TEAM -->
+  <section id="featured" class="parallax-section text-white "
+    style="background-image: url('https://themegrilldemos.com/himalayas/wp-content/uploads/sites/23/2015/07/paris-843229_12801.jpg'); background-size: cover; background-attachment: fixed; position: relative;">
+    <!-- Capa blanca semitransparente -->
+    <div class="white-layer z-0 position-absolute"></div>
+    <!-- Contenido -->
+    <div class="container position-relative z-1 py-5">
+      <div class="text-center mb-5 py-5">
+        <h2 class="section-title text-white fs-2 d-inline-block position-relative px-3 fw-bold">
+          OUR TEAM</h2>
+        <h4 class=" section-subtitle text-white d-none d-md-block fw-light">Praesent imperdiet massa eu ex iaculis
+          semper. Mauris egestas malesuada ligula. Cras id ante interdum, cursus leo nec, facilisis orci phasellus risus
+          ipsum. </h4>
+        <h4 class="section-subtitle text-white d-block d-md-none fw-light fs-4">Praesent imperdiet massa eu ex iaculis
+          semper. Mauris egestas malesuada ligula. Cras id ante interdum, cursus leo nec, facilisis orci phasellus risus
+          ipsum. </h4>
+
+      </div>
+      <div class="row mx-2">
+        <!-- Team member 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="team-member position-relative overflow-hidden">
+            <div class="member-image position-relative overflow-hidden ">
+              <img src="img/girl.jpg" class="img-fluid position-absolute top-0 start-0 w-100 h-100 object-fit-cover"
+                alt="Team Member">
+              <div class="member-info">
+                <h3 class="member-title mb-3 d-none d-lg-block">Creative Designer</h3>
+                <p class="member-description d-none d-lg-block">Etiam malesuada, mauris nec mattis laoreet, ante ipsum
+                  malesuada tellus, maximus tempus lectus tortor finibus augue. Fusce consectetur dolor sit amet massa
+                  aliquet venenatis. Duis</p>
+                <p class="member-name fw-bolder d-none d-lg-block">Monica Baron</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Team member 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="team-member position-relative overflow-hidden">
+            <div class="member-image position-relative overflow-hidden ">
+              <img src="img/friend.jpg" class="img-fluid position-absolute top-0 start-0 w-100 h-100 object-fit-cover"
+                alt="Team Member">
+              <div class="member-info ">
+                <h3 class="member-title mb-3 d-none d-lg-block">Creative Designer</h3>
+                <p class="member-description d-none d-lg-block">Etiam malesuada, mauris nec mattis laoreet, ante ipsum
+                  malesuada tellus, maximus tempus lectus tortor finibus augue. Fusce consectetur dolor sit amet massa
+                  aliquet venenatis. Duis</p>
+                <p class="member-name fw-bolder d-none d-lg-block">Monica Baron</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Team member 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="team-member position-relative overflow-hidden">
+            <div class="member-image position-relative overflow-hidden ">
+              <img src="img/woman.jpg" class="img-fluid position-absolute top-0 start-0 w-100 h-100 object-fit-cover"
+                alt="Team Member">
+              <div class="member-info">
+                <h3 class="member-title mb-3 d-none d-lg-block">Creative Designer</h3>
+                <p class="member-description d-none d-lg-block">Etiam malesuada, mauris nec mattis laoreet, ante ipsum
+                  malesuada tellus, maximus tempus lectus tortor finibus augue. Fusce consectetur dolor sit amet massa
+                  aliquet venenatis. Duis</p>
+                <p class="member-name fw-bolder d-none d-lg-block ">Monica Baron</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>   
+    </div>
+  </section>
+
+
+
+  <!-- FORM -->
+  <section class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold section-title d-inline-block position-relative px-3 mt-5">CONTACT US</h2>
+        <p class="text-muted section-subtitle d-none d-md-block fs-4 fw-light">Etiam sodales eget augue at suscipit.
+          Proin id dui ultricies, ullamcorper sem sed, pretium purus. Vivamus tellus dolor, tristique nec tristique sed.
+        </p>
+        <p class="text-muted section-subtitle d-block d-md-none fs-6 fw-light">Etiam sodales eget augue at suscipit.
+          Proin id dui ultricies, ullamcorper sem sed, pretium purus. Vivamus tellus dolor, tristique nec tristique sed.
+        </p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <h3 class="contact-title text-black fw-light mb-3 fs-2 ">Contact Us Now</h3>
+          <p class="text-muted">This contact form is created using <a
+              href="https://wordpress.org/plugins/everest-forms/" class="text-azul text-decoration-none">Everest
+              Forms</a>.</p>
+
+          <div class="mb-3">
+            <div class="d-flex align-items-center">
+              <i class="fa fa-map-marker me-2 text-muted"></i>
+              <span class="detail-title text-muted">Address</span>
+            </div>
+            <p class="text-muted">Baluwatar, Kathmandu Nepal</p>
+          </div>
+          <hr class="d-flex justify-content-center align-items-start my-2 custom-hr ">
+
+          <div class="mb-3">
+            <div class="d-flex align-items-center">
+              <i class="fa fa-phone me-2 text-muted"></i>
+              <span class="detail-title text-muted">Cell Phone</span>
+            </div>
+            <p class="text-muted">+977-025645621569</p>
+          </div>
+          <hr class="d-flex justify-content-center align-items-start my-2 custom-hr">
+          <div class="mb-3">
+            <div class="d-flex align-items-center">
+              <i class="fa fa-envelope me-2 text-muted"></i>
+              <span class="detail-title text-muted">Email</span>
+            </div>
+            <p class="text-muted">themegrill@gmail.com</p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <form id="contact-form" method="post" action="">
+            <div class="mb-3">
+              <label for="name-input" class="form-label fw-bold text-muted">Name <span
+                  class="text-danger">*</span></label>
+              <input type="text" id="name-input" class="form-control border-input rounded-0" name="">
+              <span class="error-nombre text-danger"></span>
+            </div>
+            <div class="mb-3">
+              <label for="email-input" class="form-label fw-bold text-muted">Email <span
+                  class="text-danger">*</span></label>
+              <input type="email" id="email-input" class="form-control border-input rounded-0" name="">
+              <span class="error-email text-danger"></span>
+            </div>
+            <div class="mb-3">
+              <label for="subject-input" class="form-label fw-bold text-muted">Subject <span
+                  class="text-danger">*</span></label>
+              <input type="text" id="subject-input" class="form-control border-input rounded-0" name="">
+              <span class="error-subject text-danger"></span>
+            </div>
+            <div class="mb-3">
+              <label for="message-textarea" class="form-label fw-bold text-muted">Message</label>
+              <textarea id="message-textarea" class="border-input form-control border-input rounded-0" name=""></textarea>
+              <span class="error-message text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+              <button class="btn submit-btn fs-5 rounded-1 px-4 py-2">
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="text-light p-0 m-0 bg-oscuro mt-5 pt-5">
+    <!-- Top Footer -->
+    <div class="d-flex align-items-center justify-content-center p-5">
+      <div class="container text-start text-md-start">
+        <div class="row">
+          <!-- Logo + Descripción -->
+          <div class="col-sm-12 col-md-4 mb-4">
+            <img src="https://themegrilldemos.com/himalayas/wp-content/uploads/sites/23/2015/07/logo-small.png"
+              alt="Logo" class="img-fluid mb-3" style="max-width: 100px;">
+            <p class="text-light">
+              Donec congue nibh ex, ut dapibus erat mattis vitae. Quisque pulvinar ultricies lorem, eget fermentum
+              lectus faucibus auctor. Duis viverra sem vitae velit tempor. Fusce non dui tristique libero tempus cursus
+              vel eu orci. Nulla non eleifend sem.
+            </p>
+          </div>
+
+          <!-- Layout Links -->
+          <div class="col-sm-12 col-md-4 mb-4">
+            <h5 class="fw-bold border-bottom-blue pb-2">Layout</h5>
+            <ul class="list-unstyled">
+              <li class="border-bottom pb-2 mb-2"><a href="#" class="text-light text-decoration-none">Right Sidebar</a>
+              </li>
+              <li class="border-bottom pb-2 mb-2"><a href="#" class="text-light text-decoration-none">Left Sidebar</a>
+              </li>
+              <li class="border-bottom pb-2 mb-2"><a href="#" class="text-light text-decoration-none">No Sidebar Content
+                  Centered</a></li>
+              <li class="pb-2"><a href="#" class="text-light text-decoration-none">No Sidebar Full Width</a></li>
+            </ul>
+          </div>
+
+          <!-- Useful Links -->
+          <div class="col-sm-12 col-md-4 mb-4">
+            <h5 class="fw-bold border-bottom-blue pb-2">Useful Links</h5>
+            <ul class="list-unstyled">
+              <li class="border-bottom pb-2 mb-2"><a href="#" class="text-light text-decoration-none">Shop</a></li>
+              <li class="border-bottom pb-2 mb-2"><a href="#" class="text-light text-decoration-none">My Account</a>
+              </li>
+              <li class="border-bottom pb-2 mb-2"><a href="#" class="text-light text-decoration-none">Cart</a></li>
+              <li class="pb-2"><a href="#" class="text-light text-decoration-none">Checkout</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Footer -->
+    <div class=" text-light py-3 bg-bottom-footer">
+      <div
+        class="container d-flex flex-column flex-md-row justify-content-between align-items-center text-start text-md-start">
+        <p class="mb-2 mb-md-0 text-light">
+          Copyright © 2025 <a href="#" class="text-azul text-decoration-none">Himalayas</a>. Theme: <a href="#"
+            class="text-azul text-decoration-none">Himalayas</a> by ThemeGrill. Powered by <a href="#"
+            class="text-azul text-decoration-none">WordPress</a>.
+        </p>
+        <div>
+          <a href="#" class="text-light me-3"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-light me-3"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-light me-3"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-light"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="./js/index.js"></script>
+
+</html>
